@@ -119,9 +119,9 @@ Switching on the camera in the rabbit habitat...
 (" ~----( ~   Y.  )
 It looks like we will soon have more rabbits!"""
 
-exit = 'See you later!'
+exit_message = 'See you later!'
 # write your code here
-list_of_animals = [camel, lion, deer, goose, bat, rabbit, exit]
+list_of_animals = [camel, lion, deer, goose, bat, rabbit, exit_message]
 
 done = False
 
