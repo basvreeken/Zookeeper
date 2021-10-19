@@ -119,16 +119,15 @@ Switching on the camera in the rabbit habitat...
 (" ~----( ~   Y.  )
 It looks like we will soon have more rabbits!"""
 
-exit = "See you later!"
-
+exit = 'See you later!'
 # write your code here
 list_of_animals = [camel, lion, deer, goose, bat, rabbit, exit]
 
 done = False
 
 while not done:
-    n = input("Please enter the number of the habitat you would like to view:")
-    if n == "exit":
+    n = input('Please enter the number of the habitat you would like to view:')
+    if n == 'exit':
         n = 6
         done = True
     print(list_of_animals[int(n)])
